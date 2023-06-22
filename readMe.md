@@ -15,4 +15,4 @@ Software components should be open for extension but closed for modification. Me
 
 ## Liskov Substitution Principle
 
-“Tell, don’t ask” - This rule stipulates that you substitute the implementation of one function with another. Objects should be replaceable with their subtypes without affecting the correctness of the program.
+This rule stipulates that you substitute the implementation of one function with another. Objects should be replaceable with their subtypes without affecting the correctness of the program.
