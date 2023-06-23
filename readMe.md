@@ -4,6 +4,7 @@
 
 This means that every software component (Class, method) should have one reason to change.
 This also means that every software component should have only one responsibility.
+If we are obeying this rule, we should have high cohesion and low coupling
 
 `Cohesion`: This is the degree to which various parts of a software component are related.
 
