@@ -25,3 +25,10 @@ No client should be forced to depend on objects it does not use. Ways to know yo
 1. `Fat interfaces`: When an interface is too large, it opens the possibility for violation.
 2. `Interfaces with Low Cohesion`: When methods in the interface do not have similar reasons to change.
 3. `Empty method Implementations`: When an interface contains more methods than needed by the class.
+
+## Dependency Inversion Principle
+
+High-Level modules should not depend on Low-Level modules. Both should depend on abstractions
+Abstractions should not depend on detail. Details should depend on abstractions.
+
+Dependency injection is the process of supplying a class with its dependencies rather than having it instantiate its dependencies thereby, decoupling the parent and dependency classes completely.
